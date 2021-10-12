@@ -12,5 +12,6 @@ Requisitos para instalar esto
 
 3 RipGrep
 
-4 nvim :)
+4 nvim
 
+5 [choco](https://chocolatey.org/)
