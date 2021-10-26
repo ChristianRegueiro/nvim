@@ -2,7 +2,8 @@
 call plug#begin('~/.vim/plugged')
 " Temas
 " Themes
-Plug 'morhetz/gruvbox'
+Plug 'drewtempelmeyer/palenight.vim'
+"Plug 'morhetz/gruvbox'
 "Plug 'shinchu/lightline-gruvbox.vim'
 "Plug 'sheerun/vim-polyglot'
 "Plug 'joshdick/onedark.vim'

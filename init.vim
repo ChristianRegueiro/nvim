@@ -23,6 +23,10 @@ set laststatus=2
 set backspace=2
 set guioptions-=T
 set guioptions-=L
+set smartindent
+set tabstop=2
+"set shiftwidht=4
+set expandtab
 "Get out of insert mode 
 "Salir de modo insertar
 imap jk <Esc>
@@ -80,9 +84,25 @@ nnoremap <silent> <S-TAB> :bprevious<CR>
 "cerrar buffer
 nmap <leader>bd :bdelete<CR>
 "--gruvbox config--
-colorscheme gruvbox
-let g:gruvbox_contrast_dark = "medium"
+"set background = dark
+colorscheme palenight
 
+let g:lightline = { 'colorscheme': 'palenight' }
+let g:airline_theme = "palenight"
+
+if (has("nvim"))
+  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+endif
+
+if (has("termguicolors"))
+  set termguicolors
+endif
+
+let g:palenight_terminal_italics=1 
+
+"let g:gruvbox_contrast_dark = "hard"
+"let g:onedark_terminal_italics = 1
+"let g:onedark_termcolors = 256
 set cmdheight=1
 "let g:tokyonight_style = 'night' " available: night, storm
 "let g:tokyonight_enable_italic = 0
