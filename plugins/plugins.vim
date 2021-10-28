@@ -3,6 +3,8 @@ call plug#begin('~/.vim/plugged')
 " Temas
 " Themes
 Plug 'drewtempelmeyer/palenight.vim'
+
+"Plug 'ryanoasis/vim-devicons'
 "Plug 'morhetz/gruvbox'
 "Plug 'shinchu/lightline-gruvbox.vim'
 "Plug 'sheerun/vim-polyglot'
@@ -26,6 +28,12 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Vim lenguajes
+Plug 'pangloss/vim-javascript'
+Plug 'StanAngeloff/php.vim'
+"Plug 'vim-syntastic/syntastic'
+"Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
+"Plug 'numirias/semshi'
 "Close pairs () [] {} ''
 "Cerrar los pares () [] {} '' 
 Plug 'jiangmiao/auto-pairs'

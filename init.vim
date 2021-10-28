@@ -27,6 +27,8 @@ set smartindent
 set tabstop=2
 "set shiftwidht=4
 set expandtab
+
+set guifont=DroidSansMono\ Nerd\ Font:h11
 "Get out of insert mode 
 "Salir de modo insertar
 imap jk <Esc>
