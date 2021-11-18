@@ -27,8 +27,7 @@ set smartindent
 set tabstop=2
 "set shiftwidht=4
 set expandtab
-
-set guifont=DroidSansMono\ Nerd\ Font:h11
+"set guifont=DroidSansMono\ Nerd\ Font:h11
 "Get out of insert mode 
 "Salir de modo insertar
 imap jk <Esc>
@@ -86,11 +85,12 @@ nnoremap <silent> <S-TAB> :bprevious<CR>
 "cerrar buffer
 nmap <leader>bd :bdelete<CR>
 "--gruvbox config--
-"set background = dark
-colorscheme palenight
+let g:gruvbox_italic=1
+set bg=dark
+colorscheme gruvbox
 
-let g:lightline = { 'colorscheme': 'palenight' }
-let g:airline_theme = "palenight"
+"let g:lightline = { 'colorscheme': 'gruvbox' }
+let g:airline_theme = "gruvbox"
 
 if (has("nvim"))
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
@@ -100,9 +100,9 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
-let g:palenight_terminal_italics=1 
+"let g:palenight_terminal_italics=1 
 
-"let g:gruvbox_contrast_dark = "hard"
+let g:gruvbox_contrast_dark = "hard"
 "let g:onedark_terminal_italics = 1
 "let g:onedark_termcolors = 256
 set cmdheight=1
@@ -111,6 +111,6 @@ set cmdheight=1
 "colorscheme tokyonight
 "Close tags automatically
 "Cerrar tags automaticamente
-let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js'
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js, *.php'
 "-----------------------------------------------------------------
 

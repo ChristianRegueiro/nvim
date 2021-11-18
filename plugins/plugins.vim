@@ -2,10 +2,9 @@
 call plug#begin('~/.vim/plugged')
 " Temas
 " Themes
-Plug 'drewtempelmeyer/palenight.vim'
-
+"Plug 'drewtempelmeyer/palenight.vim'
 "Plug 'ryanoasis/vim-devicons'
-"Plug 'morhetz/gruvbox'
+Plug 'morhetz/gruvbox'
 "Plug 'shinchu/lightline-gruvbox.vim'
 "Plug 'sheerun/vim-polyglot'
 "Plug 'joshdick/onedark.vim'
@@ -29,7 +28,9 @@ Plug 'vim-airline/vim-airline-themes'
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Vim lenguajes
-Plug 'pangloss/vim-javascript'
+Plug 'yuezk/vim-js'
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'maxmellon/vim-jsx-pretty'
 Plug 'StanAngeloff/php.vim'
 "Plug 'vim-syntastic/syntastic'
 "Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
@@ -56,5 +57,7 @@ Plug 'junegunn/gv.vim'
 Plug 'psliwka/vim-smoothie'
 "Emmet
 Plug 'mattn/emmet-vim'
+"Debugger
+Plug 'puremourning/vimspector'
 "_____________________________
 call plug#end()
