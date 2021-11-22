@@ -1,12 +1,3 @@
-"██╗███╗░░██╗██╗████████╗░░░██╗░░░██╗██╗███╗░░░███╗
-"██║████╗░██║██║╚══██╔══╝░░░██║░░░██║██║████╗░████║
-"██║██╔██╗██║██║░░░██║░░░░░░╚██╗░██╔╝██║██╔████╔██║
-"██║██║╚████║██║░░░██║░░░░░░░╚████╔╝░██║██║╚██╔╝██║
-"██║██║░╚███║██║░░░██║░░░██╗░░╚██╔╝░░██║██║░╚═╝░██║ 
-"╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝╚═╝░░░░░╚═╝
-"𝕓𝕪 𝕁𝕠𝕒𝕢𝕦𝕚𝕟 𝕍𝕒𝕣𝕖𝕝𝕒 𝕐𝕋               
-"https://www.youtube.com/channel/UCw1Ipy5_P1OL0zUJMfYC7-A					    
-
 "---------------------------------vim config---------------------------- 
 syntax on 
 set number 
@@ -54,10 +45,11 @@ nmap <leader>w :w <CR>
 nmap <C-w> :q <CR>
 nmap <leader>q :q <CR>
 nmap <leader>so :so%<CR>
+nmap <leader>t :ter<CR>
 "search commands 
 "comandos de busqueda
 nmap <leader>gs  :CocSearch
-nmap <leader>fs :FZF<CR>
+nmap <leader>ff <cmd>Telescope find_files<CR>
 nmap <leader>rg :Rg<CR>
 "gonfiguracion de tabs
 let g:indentLine_enabled = 1
@@ -85,12 +77,20 @@ nnoremap <silent> <S-TAB> :bprevious<CR>
 "cerrar buffer
 nmap <leader>bd :bdelete<CR>
 "--gruvbox config--
-let g:gruvbox_italic=1
-set bg=dark
-colorscheme gruvbox
+"let g:gruvbox_italic=1
+"set bg=dark
+"colorscheme gruvbox
 
 "let g:lightline = { 'colorscheme': 'gruvbox' }
-let g:airline_theme = "gruvbox"
+"let g:airline_theme = "gruvbox"
+"Nord theme
+colorscheme nord 
+let g:airline_theme = 'nord'
+let g:nord_italic = 1
+let g:nord_italic_comments = 1
+let g:nord_bold = 0
+let g:nord_uniform_diff_background = 1
+let g:nord_underline = 1
 
 if (has("nvim"))
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
@@ -102,7 +102,6 @@ endif
 
 "let g:palenight_terminal_italics=1 
 
-let g:gruvbox_contrast_dark = "hard"
 "let g:onedark_terminal_italics = 1
 "let g:onedark_termcolors = 256
 set cmdheight=1

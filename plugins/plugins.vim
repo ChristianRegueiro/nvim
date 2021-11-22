@@ -4,12 +4,15 @@ call plug#begin('~/.vim/plugged')
 " Themes
 "Plug 'drewtempelmeyer/palenight.vim'
 "Plug 'ryanoasis/vim-devicons'
-Plug 'morhetz/gruvbox'
+"Plug 'morhetz/gruvbox'
+"Plug 'sonph/onehalf', { 'rtp': 'vim' }
+"Plug 'sainnhe/everforest'
 "Plug 'shinchu/lightline-gruvbox.vim'
 "Plug 'sheerun/vim-polyglot'
 "Plug 'joshdick/onedark.vim'
 "Plug 'safv12/andromeda.vim'
 "Plug 'ghifarit53/tokyonight-vim'
+Plug 'arcticicestudio/nord-vim'
 " "IDE
 Plug 'easymotion/vim-easymotion'
 "Navigate with C-h C-l C-j C-k
@@ -32,6 +35,7 @@ Plug 'yuezk/vim-js'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'StanAngeloff/php.vim'
+Plug 'leafgarland/typescript-vim'
 "Plug 'vim-syntastic/syntastic'
 "Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
 "Plug 'numirias/semshi'
@@ -39,9 +43,14 @@ Plug 'StanAngeloff/php.vim'
 "Cerrar los pares () [] {} '' 
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
+
+"Telescope
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 "FZF
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim',
+"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+"Plug 'junegunn/fzf.vim',
+
 "colorizer plugin for #fe4918
 Plug 'norcalli/nvim-colorizer.lua'
 "Multiple cursor like in vscode
