@@ -82,15 +82,11 @@ nmap <leader>bd :bdelete<CR>
 "colorscheme gruvbox
 
 "let g:lightline = { 'colorscheme': 'gruvbox' }
-"let g:airline_theme = "gruvbox"
+"let g:airline_theme = gruvbox
 "Nord theme
-colorscheme nord 
-let g:airline_theme = 'nord'
-let g:nord_italic = 1
-let g:nord_italic_comments = 1
-let g:nord_bold = 0
-let g:nord_uniform_diff_background = 1
-let g:nord_underline = 1
+colorscheme onedark
+let g:lightline = { 'colorscheme': 'onedark' }
+let g:onedark_terminal_italics = 1
 
 if (has("nvim"))
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1

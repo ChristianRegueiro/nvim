@@ -9,10 +9,12 @@ call plug#begin('~/.vim/plugged')
 "Plug 'sainnhe/everforest'
 "Plug 'shinchu/lightline-gruvbox.vim'
 "Plug 'sheerun/vim-polyglot'
-"Plug 'joshdick/onedark.vim'
+Plug 'joshdick/onedark.vim'
 "Plug 'safv12/andromeda.vim'
-"Plug 'ghifarit53/tokyonight-vim'
-Plug 'arcticicestudio/nord-vim'
+"Plug 'folke/tokyonight.nvim'
+"Plug 'jacoborus/tender.vim'
+"Plug 'EdenEast/nightfox.nvim'
+"Plug 'arcticicestudio/nord-vim'
 " "IDE
 Plug 'easymotion/vim-easymotion'
 "Navigate with C-h C-l C-j C-k
@@ -26,8 +28,10 @@ Plug 'ray-x/lsp_signature.nvim'
 "ChadTree (Nerdtree Alternative )
 "
 "Airline
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+"Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
+"LightLine
+ Plug 'itchyny/lightline.vim'
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Vim lenguajes
@@ -67,6 +71,6 @@ Plug 'psliwka/vim-smoothie'
 "Emmet
 Plug 'mattn/emmet-vim'
 "Debugger
-Plug 'puremourning/vimspector'
+"Plug 'puremourning/vimspector'
 "_____________________________
 call plug#end()
