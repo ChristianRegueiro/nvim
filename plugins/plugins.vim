@@ -40,6 +40,7 @@ Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'StanAngeloff/php.vim'
 Plug 'leafgarland/typescript-vim'
+
 "Plug 'vim-syntastic/syntastic'
 "Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
 "Plug 'numirias/semshi'
@@ -47,7 +48,11 @@ Plug 'leafgarland/typescript-vim'
 "Cerrar los pares () [] {} '' 
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
-
+"LARAVEL
+Plug 'tpope/vim-dispatch'             "| Optional
+Plug 'tpope/vim-projectionist'        "|
+Plug 'noahfrederick/vim-composer'     "|
+Plug 'noahfrederick/vim-laravel'
 "Telescope
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
