@@ -15,6 +15,8 @@ Plug 'joshdick/onedark.vim'
 "Plug 'jacoborus/tender.vim'
 "Plug 'EdenEast/nightfox.nvim'
 "Plug 'arcticicestudio/nord-vim'
+"Surroud
+Plug 'tpope/vim-surround'
 " "IDE
 Plug 'easymotion/vim-easymotion'
 "Navigate with C-h C-l C-j C-k
@@ -75,6 +77,8 @@ Plug 'junegunn/gv.vim'
 Plug 'psliwka/vim-smoothie'
 "Emmet
 Plug 'mattn/emmet-vim'
+"EsLint
+Plug 'eslint/eslint'
 "Debugger
 "Plug 'puremourning/vimspector'
 "_____________________________

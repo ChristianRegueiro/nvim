@@ -45,10 +45,15 @@ nmap <leader>w :w <CR>
 nmap <C-w> :q <CR>
 nmap <leader>q :q <CR>
 nmap <leader>so :so%<CR>
-nmap <leader>t :ter<CR>
+nmap <leader>tv :botright vnew <Bar> :ter<CR>
+nmap <leader>th :botright new <Bar> :ter<CR>
 "search commands 
 "comandos de busqueda
 nmap <leader>gs  :CocSearch
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
 nmap <leader>ff <cmd>Telescope find_files<CR>
 nmap <leader>rg :Rg<CR>
 "gonfiguracion de tabs
@@ -59,7 +64,7 @@ let g:indentLine_fileTypeExclude=["nerdtree"]
 
 "abrir Nerdtree
 "open nerdtree
-nmap <Leader>e :NERDTree<CR>
+nmap <Leader>e :NERDTreeToggle<CR>
 
 "open cocExplorer 
 "

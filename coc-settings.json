@@ -1,11 +1,28 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "php"], 
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "php"
+  ],
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
-    "<cr>": ["expandable?", "expand", "open"],
+    "<cr>": [
+      "expandable?",
+      "expand",
+      "open"
+    ],
     "v": "open:vsplit"
-  }
+  },
+  "diagnostic.messageTarget": "float",
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.virtualText": true,
+  "diagnostic.virtualTextCurrentLineOnly": false,
+  "diagnostic.virtualTextPrefix": "<-"
 }
-
