@@ -15,6 +15,9 @@ Plug 'joshdick/onedark.vim'
 "Plug 'jacoborus/tender.vim'
 "Plug 'EdenEast/nightfox.nvim'
 "Plug 'arcticicestudio/nord-vim'
+"Python
+Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+Plug 'vim-scripts/pylint.vim'
 "Surroud
 Plug 'tpope/vim-surround'
 " "IDE
