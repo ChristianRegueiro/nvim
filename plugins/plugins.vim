@@ -6,7 +6,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 "Surroud
 Plug 'tpope/vim-surround'
-IDE
+"IDE
 Plug 'easymotion/vim-easymotion'
 "Navigate with C-h C-l C-j C-k
 "Navegar con C-h C-l C-j C-k

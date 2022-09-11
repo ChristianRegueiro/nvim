@@ -48,6 +48,8 @@ nmap <leader>q :q <CR>
 nmap <leader>so :so%<CR>
 nmap <leader>tv :botright vnew <Bar> :ter<CR>
 nmap <leader>th :botright new <Bar> :ter<CR>
+"Toggle tagbar
+nmap <F8> :TagbarToggle<CR>
 "search commands 
 "comandos de busqueda
 nmap <leader>gs  :CocSearch
