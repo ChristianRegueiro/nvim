@@ -1,4 +1,5 @@
 "---------------------------------vim config---------------------------- 
+" UPDATED sep 2022
 syntax on 
 set number 
 set mouse=a
