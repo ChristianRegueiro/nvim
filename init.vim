@@ -56,7 +56,7 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 nmap <leader>ff <cmd>Telescope find_files<CR>
 nmap <leader>rg :Rg<CR>
-"gonfiguracion de tabs
+"configuracion de tabs
 let g:indentLine_enabled = 1
 let g:indentLine_char = '▏'
 let g:indentLine_faster = 1
@@ -74,10 +74,11 @@ nmap <Leader>s <Plug>(easymotion-s2)
 
 " TAB in general mode will move to text buffer
 " TAB en modo normal se moverá al siguiente buffer
-nnoremap <silent> <TAB> :bnext<CR>
+" TODO: Set up change buffer
+"nnoremap <silent> <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 " SHIFT-TAB va para atras 
-nnoremap <silent> <S-TAB> :bprevious<CR>
+"nnoremap <silent> <S-TAB> :bprevious<CR>
 "close buffer
 "cerrar buffer
 nmap <leader>bd :bdelete<CR>
@@ -113,4 +114,3 @@ set cmdheight=1
 "Cerrar tags automaticamente
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js, *.php'
 "-----------------------------------------------------------------
-
