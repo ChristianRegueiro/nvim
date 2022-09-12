@@ -74,25 +74,8 @@ nmap <Leader>e :NERDTreeToggle<CR>
 "Buscar dos carácteres con easymotion
 "Search for two chars with easymotion
 nmap <Leader>s <Plug>(easymotion-s2)
-
-" TAB in general mode will move to text buffer
-" TAB en modo normal se moverá al siguiente buffer
 " TODO: Set up change buffer
-"nnoremap <silent> <TAB> :bnext<CR>
-" SHIFT-TAB will go back
-" SHIFT-TAB va para atras 
-"nnoremap <silent> <S-TAB> :bprevious<CR>
-"close buffer
-"cerrar buffer
 nmap <leader>bd :bdelete<CR>
-"--gruvbox config--
-"let g:gruvbox_italic=1
-"set bg=dark
-"colorscheme gruvbox
-
-"let g:lightline = { 'colorscheme': 'gruvbox' }
-"let g:airline_theme = gruvbox
-"Nord theme
 colorscheme onedark
 let g:lightline = { 'colorscheme': 'onedark' }
 let g:onedark_terminal_italics = 1
@@ -105,15 +88,22 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
-"let g:palenight_terminal_italics=1 
-
-"let g:onedark_terminal_italics = 1
-"let g:onedark_termcolors = 256
+"TagBar Config
+"TS
+let g:tagbar_type_typescript = {
+  \ 'ctagstype': 'typescript',
+  \ 'kinds': [
+    \ 'c:classes',
+    \ 'n:modules',
+    \ 'f:functions',
+    \ 'v:variables',
+    \ 'v:varlambdas',
+    \ 'm:members',
+    \ 'i:interfaces',
+    \ 'e:enums',
+  \ ]
+\ }
 set cmdheight=1
-"let g:tokyonight_style = 'night' " available: night, storm
-"let g:tokyonight_enable_italic = 0
-"colorscheme tokyonight
-"Close tags automatically
 "Cerrar tags automaticamente
-let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js, *.php'
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js, *.php, *.ts'
 "-----------------------------------------------------------------
