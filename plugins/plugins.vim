@@ -1,5 +1,7 @@
 "Plugins
 call plug#begin('~/.vim/plugged')
+"copilot
+Plug "github/copilot.vim"
 " Temas
 Plug 'joshdick/onedark.vim'
 "Python
